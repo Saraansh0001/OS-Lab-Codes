@@ -1,6 +1,11 @@
 p = ["P1","P2","P3","P4"]
-at = [0,1,2,3]
+at = [0,10,2,3]
 bt = [5,3,8,6]
+
+data = list(zip(at,bt,p))
+data.sort()
+
+at , bt , p =zip(*data)
 
 n = len(p)
 
@@ -26,6 +31,5 @@ print("P  AT  BT  CT  TAT  WT")
 for i in range(n):
     print(p[i], at[i], bt[i], ct[i], tat[i], wt[i])
 
-print("\n")
 print("Average TAT =", avg_tat)
 print("Average WT =", avg_wt)
