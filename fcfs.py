@@ -34,5 +34,4 @@ for i in range(n):
 print("Average TAT =", avg_tat)
 print("Average WT =", avg_wt)
 
-
-commit chekc
+cehck 2
