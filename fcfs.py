@@ -34,4 +34,4 @@ for i in range(n):
 print("Average TAT =", avg_tat)
 print("Average WT =", avg_wt)
 
-cehck 2
+cehck 2saewa
